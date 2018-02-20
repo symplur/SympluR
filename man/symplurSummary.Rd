@@ -17,7 +17,4 @@ symplurSummary(start = "09/01/2017", end = "09/08/2017",
 \description{
 API endpoint documentation: https://api.symplur.com/v1/docs#/Twitter_Analytics:_Tweets/get_twitter_analytics_tweets_summary
 }
-\examples{
-LCSM <- symplurSummary("09/01/2017", "09/08/2017", list("databases[]" = "#LCSMDemoData"))
-}
 \keyword{summary}

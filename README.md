@@ -25,6 +25,7 @@ To learn more about each Symplur API endpoint used in this package and the accep
 ### Summary
 
 This will create a list `LCSM` with statistics of the database and the time period selected. The stats include tweets, mentions, impressions, users, retweets, replies, urls_shared, etc.
+
 `LCSM <- symplurSummary("09/01/2017", "09/08/2017", list("databases[]" = "#LCSMDemoData"))`
 
 ### Summary Table

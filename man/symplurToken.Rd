@@ -9,8 +9,4 @@ symplurToken()
 \description{
 Symplur API - Token
 }
-\examples{
-symplurToken()
-
-}
 \keyword{token}

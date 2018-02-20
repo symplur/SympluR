@@ -2,8 +2,6 @@
 #'
 #' @keywords token
 #' @export
-#' @examples
-#' symplurToken()
 #'
 symplurToken <- function(){
   Sys.setenv(TZ="UTC")

@@ -21,8 +21,5 @@ Example query dataframe:
 #BTSM \tab 01/01/2010 \tab 01/01/2018
 }
 }
-\examples{
-CancerTagOntology <- symplurSummaryTable(CTOquery)
-}
 \keyword{summary}
 \keyword{table}

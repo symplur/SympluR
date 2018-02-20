@@ -1,14 +1,14 @@
 Package: SympluR
 Type: Package
-Title: Analyze healthcare social media data from the Symplur API
+Title: Analyze Healthcare Social Media Data from the Symplur API
 Version: 0.1.0
 Author: Audun Utengen
 Maintainer: The package maintainer <audun@symplur.com>
 Description: The SympluR R package enable you to analyze data from the Healthcare Social Graph via access to the Symplur API
-    The Healthcare Social Graph contains billions of healthcare social media data points. Hundreds of published journal articles have 
+    The Healthcare Social Graph contains billions of healthcare social media data points. Hundreds of published journal articles have
     leveraged data from the Healthcare Social Graph.
-    About the Symplur API: https://api.symplur.com/v1/docs#/.
-    About Symplur Research: https://www.symplur.com/healthcare-social-media-research/.
+    About the Symplur API: <https://api.symplur.com/v1/docs/>.
+    About Symplur Research: <https://www.symplur.com/healthcare-social-media-research/>.
     Credit to Professor Larry Chu, MD at Stanford University School of Medicine for the idea of a Symplur R Package.
 License: MIT + file LICENSE
 Encoding: UTF-8

@@ -7,10 +7,6 @@
 symplurConfig()
 }
 \description{
-Replace YOURclientId and YOURclientSecret with your Symplur API credentials.
-}
-\examples{
-symplurConfig()
-
+Symplur API - Config
 }
 \keyword{config}
