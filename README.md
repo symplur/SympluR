@@ -1,5 +1,5 @@
 # SympluR
-R package for analyzing data from the Healthcare Social Graph via access to the Symplur API.
+[R](https://www.r-project.org) package for analyzing data from the Healthcare Social Graph via access to the [Symplur API](https://api.symplur.com/v1/docs).
 
 ## Get started
 To install R package from GitHub:
@@ -14,7 +14,7 @@ To make us of this R package you need to have access to the Symplur API. The pac
 
 To access any other datasets, please [contact Symplur](https://www.symplur.com/contact/) for further details.
 
-The R package will prompt you for your credentials during the first API call in your R session. Paste in your credentials when asked, or if you just want to try out the demo data then just hit enter without entering anything.
+The R package will prompt you for your credentials during the first API call in your R session. Paste in your credentials when asked, or if you just want to try out the demo data then hit enter without entering anything.
 
 ## Documentation
 Find the documentation in R for each function in this package. Example:
