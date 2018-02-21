@@ -10,9 +10,11 @@ library(SympluR)
 ```
 
 ## Symplur API Credentials
-To make us of the R package you need to have access to the Symplur API. Please [contact Symplur](https://www.symplur.com/contact/) if you want to gain access.
+To make us of this R package you need to have access to the Symplur API. The package comes with demo credentials that allow you to access the demo dataset `#LCSMDemoData`. This dataset is a 4-week snapshot of the conversations from [#LCSM](https://www.symplur.com/healthcare-hashtags/lcsm/) (Lung Cancer Social Media) from 08/16/2017 to 09/15/2017.
 
-You need the `clientId` and the `clientSecret` provided to you by Symplur. The R package will prompt you for this information during the first API call in your session. Paste in your credentials when asked.
+To access any other datasets, please [contact Symplur](https://www.symplur.com/contact/) for further details.
+
+The R package will prompt you for your credentials during the first API call in your R session. Paste in your credentials when asked, or if you just want to try out the demo data then just hit enter without entering anything.
 
 ## Documentation
 Find the documentation in R for each function in this package. Example:
