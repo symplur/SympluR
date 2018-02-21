@@ -2,6 +2,9 @@ language: r
 sudo: false
 cache: packages
 r:
-  - oldrel
-  - release
-  - devel
+- oldrel
+- release
+- devel
+notifications:
+  slack:
+    secure: ZXHU9ORmkwh9bYjoKHYWE9Ybo0Y8Nv2Xq6uk7tdH31TEPoHfEkhFyVzAaHToM3q75nDGT1/D03oVpQ1cYM14E4g8VF+76EHjDTph5nrG7SFSq8EgvRayGBqzY9Bw8b3fSPY/dwYFXHMiNKJSAPXhHJ8E66NmNTkYv6LnD44Ofeqx+S0wmdBnAmEOG5bKj+Fnmv9ZOycq+Py2tA0SRdMMN4WnOWNNgBDN2ERyPr5C6pEz5iO5K34Wf+nmkus1VMKJP/W4y+pYe/E0Tl8s+g+xqf6s8qimf7N1R6DSTkfgb7ryA3mRcxLRvA5jl9NwV9HsRzfhTM5yD/7+zji5WE3ScY6hxoOObz9/MyRYYaOH8HYbw0zvVkJKv3lezsz6+kcVCmWEJLKTuaWxK/AjkapBdIHTpykQlbyHiT+f12Umhm0ZT5GP+Avl0REli7isAx3npfJEISSf/mus8VVZ6uJ64ML6JQYh0gSzM02ik5cDLzoRd3iwfbfshn51P2v0JOFngw5VXx/vP9P8sswpXSAIKVshht7sCn05vuTJvuRssM7rUHBpmjiEfrNrdZic3fPmwIhuLs2HqImfBYCcDcGLOfkGpVe7d7kQUJBliNYjD+DqnV4/OCnx5dR3kwezLjSYySSCnCwMCvSuQNovnD0BhBvn4tWiNthtLmGsv2a28H4=
