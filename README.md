@@ -49,3 +49,7 @@ Load that CSV into R as a data frame:
 Then finally run the analysis:
 
 `LCSManalysis <- symplurSummaryTable(LCSMquery)`
+
+
+## Credits
+Thank you to [Professor Larry Chu, MD](https://twitter.com/larrychu) at [Stanford University School of Medicine](https://medicinex.stanford.edu) for the idea of the Symplur R Package.

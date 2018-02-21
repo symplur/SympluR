@@ -12,7 +12,7 @@ symplurSummary(start = "09/01/2017", end = "09/08/2017",
 
 \item{end}{End time for period analyzed}
 
-\item{databases}{The database(s) analyzed. Comma seperate string if using more than one database.}
+\item{databases}{The database(s) analyzed. Comma separate string if using more than one database.}
 }
 \description{
 API endpoint documentation: https://api.symplur.com/v1/docs#/Twitter_Analytics:_Tweets/get_twitter_analytics_tweets_summary
