@@ -3,7 +3,7 @@
 #' API endpoint documentation: https://api.symplur.com/v1/docs#/Twitter_Analytics:_Tweets/get_twitter_analytics_tweets_summary
 #' @param start Start time for period analyzed, read above API docs for more info.
 #' @param end End time for period analyzed
-#' @param databases The database(s) analyzed. Comma seperate string if using more than one database.
+#' @param databases The database(s) analyzed. Comma separate string if using more than one database.
 #' @keywords summary
 #' @export
 #' @examples
