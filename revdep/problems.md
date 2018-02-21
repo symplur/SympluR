@@ -10,13 +10,13 @@
 |language |(EN)                         |
 |collate  |en_US.UTF-8                  |
 |tz       |UTC                          |
-|date     |2018-02-20                   |
+|date     |2018-02-21                   |
 
 ## Packages
 
 |package |*  |version |date       |source                     |
 |:-------|:--|:-------|:----------|:--------------------------|
-|SympluR |*  |0.1.0   |2018-02-20 |local (symplur/SympluR@NA) |
+|SympluR |*  |0.1.0   |2018-02-21 |local (symplur/SympluR@NA) |
 
 # Check results
 

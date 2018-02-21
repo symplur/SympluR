@@ -5,7 +5,8 @@ R package for analyzing data from the Healthcare Social Graph via access to the 
 To install R package from GitHub:
 ```
 library("devtools")
-install_github('SympluR','symplur')
+install_github('symplur/SympluR')
+library(SympluR)
 ```
 
 ## Symplur API Credentials
@@ -15,9 +16,8 @@ You need the `clientId` and the `clientSecret` provided to you by Symplur. The R
 
 ## Documentation
 Find the documentation in R for each function in this package. Example:
-```
-?symplurSummary
-```
+
+`?symplurSummary`
 
 To learn more about each Symplur API endpoint used in this package and the accepted parameters please see the [Symplur API Documentation](https://api.symplur.com/v1/docs).
 
@@ -40,10 +40,9 @@ First create in a spreadsheet columns 'database', 'start' and 'end'. Add rows ac
 
 Load that CSV into R as a data frame:
 
-`
-library(readr)
-LCSMquery <- read_csv(file.choose())
-`
+`library(readr)`
+
+`LCSMquery <- read_csv(file.choose())`
 
 Then finally run the analysis:
 

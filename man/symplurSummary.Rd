@@ -5,16 +5,19 @@
 \title{Symplur API - Summary}
 \usage{
 symplurSummary(start = "09/01/2017", end = "09/08/2017",
-  data = list(`databases[]` = "#LCSMDemoData"))
+  databases = "#LCSMDemoData")
 }
 \arguments{
 \item{start}{Start time for period analyzed, read above API docs for more info.}
 
 \item{end}{End time for period analyzed}
 
-\item{data}{The database(s) analyzed. A list.}
+\item{databases}{The database(s) analyzed. Comma seperate string if using more than one database.}
 }
 \description{
 API endpoint documentation: https://api.symplur.com/v1/docs#/Twitter_Analytics:_Tweets/get_twitter_analytics_tweets_summary
+}
+\examples{
+LCSMDemoData <- symplurSummary("09/01/2017", "09/08/2017", databases = "#LCSMDemoData")
 }
 \keyword{summary}

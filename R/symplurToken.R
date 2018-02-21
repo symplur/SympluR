@@ -2,20 +2,29 @@
 #'
 #' @keywords token
 #' @export
+#' @examples
+#' symplurToken()
 #'
 symplurToken <- function(){
   Sys.setenv(TZ="UTC")
   token <- Sys.getenv('SYMPLUR_TOKEN')
+  config <- symplurConfig()
+
   if (identical(token, "")) {
     if (identical(Sys.getenv('SYMPLUR_clientId'), "")) {
-      SymplurClientId <- readline("What is your Symplur API clientId? ")
+      SymplurClientId <- readline("What is your Symplur API clientId? If none, just hit enter to try #LCSMDemoData ")
+      if (identical(SymplurClientId, "")) {
+          SymplurClientId = config$demoClientId
+      }
       Sys.setenv(SYMPLUR_clientId = SymplurClientId)
     }
     if (identical(Sys.getenv('SYMPLUR_clientSecret'), "")) {
-      SymplurClientSecret <- readline("What is your Symplur API clientSecret? ")
+      SymplurClientSecret <- readline("What is your Symplur API clientSecret? If none, just hit enter to try #LCSMDemoData ")
+      if (identical(SymplurClientSecret, "")) {
+          SymplurClientSecret = config$demoClientSecret
+      }
       Sys.setenv(SYMPLUR_clientSecret = SymplurClientSecret)
     }
-    config <- symplurConfig()
     baseUrl = config$baseUrl
     clientId = Sys.getenv('SYMPLUR_clientId')
     clientSecret = Sys.getenv('SYMPLUR_clientSecret')
