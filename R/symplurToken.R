@@ -12,14 +12,14 @@ symplurToken <- function(){
 
   if (identical(token, "")) {
     if (identical(Sys.getenv('SYMPLUR_clientId'), "")) {
-      SymplurClientId <- readline("What is your Symplur API clientId? If none, just hit enter to try #LCSMDemoData ")
+      SymplurClientId <- readline("What is your Symplur API clientId? If none, just hit enter to try #LCSMDemoData: ")
       if (identical(SymplurClientId, "")) {
           SymplurClientId = config$demoClientId
       }
       Sys.setenv(SYMPLUR_clientId = SymplurClientId)
     }
     if (identical(Sys.getenv('SYMPLUR_clientSecret'), "")) {
-      SymplurClientSecret <- readline("What is your Symplur API clientSecret? If none, just hit enter to try #LCSMDemoData ")
+      SymplurClientSecret <- readline("What is your Symplur API clientSecret? If none, just hit enter to try #LCSMDemoData: ")
       if (identical(SymplurClientSecret, "")) {
           SymplurClientSecret = config$demoClientSecret
       }
