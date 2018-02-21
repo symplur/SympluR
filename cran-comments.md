@@ -1,6 +1,6 @@
 ## Test environments
 * local macOS 10.13.3, R version 3.3.2
-* win-builder (devel and release)
+* win-builder x86_64-w64-mingw32 (64-bit) (devel and release)
 
 ## R CMD check results
 There were no ERRORs or WARNINGs.
