@@ -1,4 +1,7 @@
 # SympluR
+[![Build Status](https://travis-ci.org/symplur/SympluR.svg?branch=master)](https://travis-ci.org/symplur/SympluR)
+
+
 [R](https://www.r-project.org) package for analyzing data from the Healthcare Social Graph via access to the [Symplur API](https://api.symplur.com/v1/docs).
 
 ## Get started
