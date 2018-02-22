@@ -1,6 +1,7 @@
 # SympluR
-[![Build Status](https://travis-ci.org/symplur/SympluR.svg?branch=master)](https://travis-ci.org/symplur/SympluR)
+[![DOI](https://zenodo.org/badge/122243873.svg)](https://zenodo.org/badge/latestdoi/122243873)
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version-last-release/SympluR)](https://cran.r-project.org/package=SympluR)
+[![Build Status](https://travis-ci.org/symplur/SympluR.svg?branch=master)](https://travis-ci.org/symplur/SympluR)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/HealthCatalystSLC/healthcareai-r/blob/master/LICENSE)
 
 
