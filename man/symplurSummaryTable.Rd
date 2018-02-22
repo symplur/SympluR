@@ -16,6 +16,7 @@ Creates a dataframe from looping through queries.
 \details{
 Example query dataframe:
 \tabular{lll}{
+database \tab start \tab end\cr
 #BCSM \tab 01/01/2010 \tab 01/01/2018\cr
 #LCSM \tab 01/01/2010 \tab 01/01/2018\cr
 #BTSM \tab 01/01/2010 \tab 01/01/2018

@@ -9,6 +9,7 @@ Description: Analyze data from the 'Healthcare Social Graph' via access to the '
     About the 'Symplur' API: <https://api.symplur.com/v1/docs/>.
     About 'Symplur' research: <https://www.symplur.com/healthcare-social-media-research/>.
     Credit to Professor Larry Chu, MD at Stanford University School of Medicine for the idea of the 'SympluR' package.
+URL: https://github.com/symplur/SympluR
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true

@@ -1,5 +1,7 @@
 # SympluR
 [![Build Status](https://travis-ci.org/symplur/SympluR.svg?branch=master)](https://travis-ci.org/symplur/SympluR)
+[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version-last-release/SympluR)](https://cran.r-project.org/package=SympluR)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/HealthCatalystSLC/healthcareai-r/blob/master/LICENSE)
 
 
 [R](https://www.r-project.org) package for analyzing data from the Healthcare Social Graph via access to the [Symplur API](https://api.symplur.com/v1/docs).
@@ -55,4 +57,4 @@ Now we're ready to run the analysis:
 
 
 ## Credits
-Thank you to [Professor Larry Chu, MD](https://twitter.com/larrychu) at [Stanford University School of Medicine](https://medicinex.stanford.edu) for the idea of the Symplur R Package.
+Thank you to [Professor Larry Chu, MD](https://twitter.com/larrychu) at [Stanford University School of Medicine](https://medicinex.stanford.edu) for the idea of the SympluR R package.
