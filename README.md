@@ -8,7 +8,14 @@
 [R](https://www.r-project.org) package for analyzing data from the Healthcare Social Graph via access to the [Symplur API](https://api.symplur.com/v1/docs).
 
 ## Get started
-To install R package from GitHub:
+Install R package from CRAN:
+```
+install.packages("SympluR")
+library(SympluR)
+```
+
+For latest development version, install the package from GitHub:
+
 ```
 library("devtools")
 install_github('symplur/SympluR')
