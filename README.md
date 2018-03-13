@@ -7,6 +7,10 @@
 
 **[SympluR](https://CRAN.R-project.org/package=SympluR)** is an [R](https://www.r-project.org) package for analyzing data from the Healthcare Social Graph via access to the [Symplur API](https://api.symplur.com/v1/docs).
 
+#### #hcsmR
+
+Take a look at the over [200 published journal articles](https://www.symplur.com/healthcare-social-media-research/) that have employed or referenced Symplur data in their research. #hcsmR is a collaboration between Symplur and Stanford Medicine X.
+
 ## Get started
 
 Install R package from CRAN:
