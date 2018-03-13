@@ -42,6 +42,9 @@ symplurContentRetweets <- function(start = "09/01/2017", end = "09/08/2017", dat
           table$tweets.tweet.user.stakeholder_categories[i] = paste(sapply(table$tweets.tweet.user.stakeholder_categories[i], `[[`, 2), collapse=', ')
       }
   }
+
+  table$tweets.tweet.user.stakeholder_categories <- vapply(table$tweets.tweet.user.stakeholder_categories, paste, collapse = ", ", character(1L))
+
   return(table)
 }
 
