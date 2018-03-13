@@ -36,7 +36,11 @@ symplurContentRetweets <- function(start = "09/01/2017", end = "09/08/2017", dat
   drops <- c("tweets.tweet.media")
   table <-  table[ , !(names(table) %in% drops)]
   for (i in 1:nrow(table)) {
-      table$tweets.tweet.user.stakeholder_categories[i] = paste(sapply(table$tweets.tweet.user.stakeholder_categories[i], `[[`, 2), collapse=', ')
+      if (is.null(table$tweets.tweet.user.stakeholder_categories[i][[1]][["id"]])) {
+          table$tweets.tweet.user.stakeholder_categories[i] = "NA"
+      } else {
+          table$tweets.tweet.user.stakeholder_categories[i] = paste(sapply(table$tweets.tweet.user.stakeholder_categories[i], `[[`, 2), collapse=', ')
+      }
   }
   return(table)
 }
