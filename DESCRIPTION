@@ -1,7 +1,7 @@
 Package: SympluR
 Type: Package
 Title: Analyze Healthcare Social Media Data from the 'Symplur' API
-Version: 0.2.0
+Version: 0.3.0
 Author: Audun Utengen
 Maintainer: Audun Utengen <audun@symplur.com>
 Description: Analyze data from the 'Healthcare Social Graph' via access to the 'Symplur' API.

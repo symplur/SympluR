@@ -1,8 +1,8 @@
 ## Test environments
 
-* macOS 10.13.3, R version 3.4.3.
-* Ubuntu 14.04, x86_64-pc-linux-gnu, via Travis-CI, (oldrel, devel and release).
-* winbuilder, x86_64-w64-mingw32 (64-bit), (devel).
+*   macOS 10.13.3, R version 3.4.3.
+*   Ubuntu 14.04, x86_64-pc-linux-gnu, via Travis-CI, (oldrel, devel and release).
+*   winbuilder, x86_64-w64-mingw32 (64-bit), (devel).
 
 ## R CMD check results
 

@@ -46,6 +46,8 @@ Find the documentation in R for each function in this package. Example:
 
 `?symplurTweetsActivity`
 
+`?symplurPeopleInfluencers`
+
 `?symplurContentRetweets`
 
 `?symplurContentWords`
