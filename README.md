@@ -5,7 +5,11 @@
 [![Build Status](https://travis-ci.org/symplur/SympluR.svg?branch=master)](https://travis-ci.org/symplur/SympluR)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/HealthCatalystSLC/healthcareai-r/blob/master/LICENSE)
 
-**[SympluR](https://CRAN.R-project.org/package=SympluR)** is an [R](https://www.r-project.org) package for analyzing data from the Healthcare Social Graph via access to the [Symplur API](https://api.symplur.com/v1/docs).
+**[SympluR](https://CRAN.R-project.org/package=SympluR)** is an [R](https://www.r-project.org) package for analyzing data from the Healthcare Social Graph via access to the [Symplur API](https://www.symplur.com/product/symplur-api/).
+
+#### Healthcare Social Graph
+
+The Symplur API gives access to insights from the [Healthcare Social Graph®](https://www.symplur.com/technology/healthcare-social-graph/) – the vast neural network of public healthcare communities, conversations and people, hand curated by Symplur and powered by machine learning.
 
 #### #hcsmR
 
@@ -32,7 +36,7 @@ library(SympluR)
 
 To make use of this R package you need to have access to the Symplur API. The package comes with free demo credentials that allow you to access the demo dataset `#LCSMDemoData`. This dataset is a 4-week snapshot of the conversations from [#LCSM](https://www.symplur.com/healthcare-hashtags/lcsm/) (Lung Cancer Social Media) from 08/16/2017 to 09/15/2017.
 
-_You can get a quick look at the data now by opening the same demo dataset in [Symplur Signals](https://dashboard.symplur.com/hashtag/LCSMDemoData?start=1504249200&end=1505458799) with a free account._
+_You can get a quick look at the data now by opening the same demo dataset in [Symplur Signals Dashboards](https://dashboard.symplur.com/hashtag/LCSMDemoData?start=1504249200&end=1505458799) with a free account._
 
 To access any other datasets, please [contact Symplur](https://www.symplur.com/contact/) for further details.
 
