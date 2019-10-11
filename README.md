@@ -13,7 +13,7 @@ The Symplur API gives access to insights from the [Healthcare Social Graph®](ht
 
 #### #hcsmR
 
-Take a look at the over [200 published journal articles](https://www.symplur.com/healthcare-social-media-research/) that have employed or referenced Symplur data in their research. #hcsmR is a collaboration between Symplur and Stanford Medicine X.
+Take a look at the over [300 published journal articles](https://www.symplur.com/healthcare-social-media-research/) that have employed or referenced Symplur data in their research. #hcsmR is a collaboration between Symplur and Stanford Medicine X.
 
 ## Get started
 
@@ -56,7 +56,7 @@ Find the documentation in R for each function in this package. Example:
 
 `?symplurContentWords`
 
-To learn more about each Symplur API endpoint used in this package and the accepted parameters please see the [Symplur API Documentation](https://api.symplur.com/v1/docs).
+To learn more about each Symplur API endpoint used in this package and the accepted parameters please see the [Symplur API Documentation](https://docs.symplur.com/reference).
 
 ## Example Usage
 
